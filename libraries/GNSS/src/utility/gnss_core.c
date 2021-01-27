@@ -3572,6 +3572,9 @@ bool gnss_set_platform(unsigned int platform)
         0x05, /* SEA        */
         0x06, /* BALLON     */
         0x07, /* AVIATION   */
+        0x08, /* AVIATION_4G*/
+        0x09, /* WRIST      */
+        0x10, /* BIKE       */
     };
 
     if (gnss_busy())

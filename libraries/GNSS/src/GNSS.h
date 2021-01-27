@@ -157,6 +157,9 @@ public:
         PLATFORM_SEA,
         PLATFORM_BALLON,
         PLATFORM_AVIATION,
+        PLATFORM_AVIATION_4G,
+        PLATFORM_WRIST,
+        PLATFORM_BIKE 
     };
 
     GNSSClass();
